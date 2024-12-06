@@ -187,7 +187,7 @@ body.dark-theme {
     color: var(--cor-secundaria-escuro);
 
     .nav-links {
-      background-color: var(--principal-claro);
+      background-color: var(--principal-escuro);
     }
   }
 
@@ -197,6 +197,10 @@ body.dark-theme {
 
     label {
       color: var(--cor-fundo-escuro);
+    }
+
+    input {
+      border-color: var(--principal-escuro);
     }
 
     button {
